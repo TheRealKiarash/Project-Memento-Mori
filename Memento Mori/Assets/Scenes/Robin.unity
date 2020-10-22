@@ -920,7 +920,7 @@ GameObject:
   - component: {fileID: 1027350719}
   - component: {fileID: 1027350718}
   m_Layer: 5
-  m_Name: Dad (Yellow)
+  m_Name: Dad (Yellow Character)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1591,6 +1591,7 @@ GameObject:
   - component: {fileID: 1571665244}
   - component: {fileID: 1571665246}
   - component: {fileID: 1571665245}
+  - component: {fileID: 1571665247}
   m_Layer: 5
   m_Name: RED Character
   m_TagString: Untagged
@@ -1655,6 +1656,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1571665243}
   m_CullTransparentMesh: 0
+--- !u!114 &1571665247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571665243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2db8655c68ec2443ad7b112b1986610, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1703073611
 GameObject:
   m_ObjectHideFlags: 0
